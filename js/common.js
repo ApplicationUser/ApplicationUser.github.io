@@ -1,0 +1,20 @@
+$(document).ready(function() {
+	$(function() {
+	    $(".container main").niceScroll({cursorcolor:"#0099e5"});
+	});
+});
+
+
+
+
+new Vue({
+	el: "#app",
+	data: {
+		message: "Hello Message!"
+	},
+	methods: {
+		consoleWrite: function() {
+			console.log("Write to console!");
+		}
+	}
+});
