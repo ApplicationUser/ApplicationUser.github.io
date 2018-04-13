@@ -5,7 +5,7 @@ h1 { font-family: 'Oswald'; }
 .container header { text-align: center; }
 .container header h1 { display: inline-block; width: 500px; color: #fff; font: 2em/2em sans-serif; }
 
-.container main { display: flex; width: 100%; min-height: 50vh; }
+.container main { display: flex; width: 100%; min-height: calc(100vh - 100px); }
 .container main .about { width: 300px; margin: auto; text-align: center; }
 .container main .about h2 { color: #fff; font: 1.3em/1.3em sans-serif; text-align: center; }
 .container main .about .categories { margin-top: 1em; display: flex; flex-flow: row nowrap; justify-content: space-between; }
